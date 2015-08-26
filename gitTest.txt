@@ -1,2 +1,4 @@
 Testing Source Tree and 
 Git out
+
+Editing text to see changes
