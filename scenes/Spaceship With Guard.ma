@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
-//Name: Spaceship (Pre Smoothing).ma
-//Last modified: Wed, Sep 02, 2015 04:06:40 PM
+//Name: Spaceship With Guard.ma
+//Last modified: Wed, Sep 02, 2015 04:07:10 PM
 //Codeset: 1252
 requires maya "2016";
 requires "stereoCamera" "10.0";
@@ -4091,4 +4091,4 @@ connectAttr "groupId10.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId11.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId12.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId13.msg" ":initialShadingGroup.gn" -na;
-// End of Spaceship (Pre Smoothing).ma
+// End of Spaceship With Guard.ma
