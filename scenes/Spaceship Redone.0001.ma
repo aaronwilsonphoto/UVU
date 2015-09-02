@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
-//Name: Spaceship Redone.ma
-//Last modified: Wed, Sep 02, 2015 01:55:15 PM
+//Name: Spaceship Redone.0001.ma
+//Last modified: Wed, Sep 02, 2015 01:55:51 PM
 //Codeset: 1252
 requires maya "2016";
 requires "stereoCamera" "10.0";
@@ -14,8 +14,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "41180FD5-4187-264F-7FE1-1B9585A3EB32";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1086.0202924492846 290.1271843375892 1176.6785085455811 ;
-	setAttr ".r" -type "double3" -8.7383527295896872 37.799999999989907 5.0315359512502266e-016 ;
+	setAttr ".t" -type "double3" 753.15963793887261 149.18911939012568 1402.2548654989487 ;
+	setAttr ".r" -type "double3" -4.5383527295897732 25.799999999989915 2.2079364987787326e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "A8A4D39A-4007-CDA6-B7B6-FDA204588632";
 	setAttr -k off ".v" no;
@@ -878,4 +878,4 @@ connectAttr "pCubeShape1Orig.w" "groupParts2.ig";
 connectAttr "groupId2.id" "groupParts2.gi";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
-// End of Spaceship Redone.ma
+// End of Spaceship Redone.0001.ma
