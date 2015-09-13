@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
 //Name: 09-08-2015 - Spaceship with Materials (Start).0004.ma
-//Last modified: Tue, Sep 08, 2015 09:16:55 PM
+//Last modified: Tue, Sep 08, 2015 09:18:22 PM
 //Codeset: 1252
 requires maya "2016";
 requires -nodeType "StingrayPBS" "shaderFXPlugin" "1.0";
@@ -16,8 +16,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "41180FD5-4187-264F-7FE1-1B9585A3EB32";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 392.01218135321665 528.41844316006268 1122.4825442545346 ;
-	setAttr ".r" -type "double3" -22.53835272469248 1817.3999999991893 -1.6665375516012704e-015 ;
+	setAttr ".t" -type "double3" 650.48988166948197 542.65567467156791 1004.1317105359071 ;
+	setAttr ".r" -type "double3" -23.138352724690296 1829.3999999991004 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "A8A4D39A-4007-CDA6-B7B6-FDA204588632";
 	setAttr -k off ".v" no;
