@@ -1,0 +1,27 @@
+mia_material_x_passes 
+------------------------
+- Beauty
+- Diffuse
+- Direct Irradiance
+- Indirect
+- Reflection
+- Refraction
+- Specular
+- Translucence
+
+mi_metallic_paint_x_passes 
+------------------------
+- Ambient Material Color
+- Beauty
+- Diffuse
+- Direct Irradiance
+- Indirect
+- Reflection
+- Specular
+
+misss_fast_shader_x_passes
+------------------------ 
+- Beauty
+- Diffuse
+- Direct Irradiance
+- Specular
